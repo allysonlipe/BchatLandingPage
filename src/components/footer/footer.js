@@ -24,7 +24,7 @@ export default function Footer() {
           <Box sx={styles.copyright}>
             <Logo sx={styles.logo} light />
             <Text as="span">
-              Copyright by {new Date().getFullYear()} RedQ, Inc
+              © 2022 Bolt 360
             </Text>
           </Box>
 
