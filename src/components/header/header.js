@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Container, Button } from 'theme-ui';
+import { jsx, Container } from 'theme-ui';
 import { useState } from 'react';
 import Sticky from 'react-stickynode';
 import { DrawerProvider } from 'contexts/drawer/drawer-provider';

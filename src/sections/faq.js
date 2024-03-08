@@ -7,38 +7,23 @@ import FaqItem from 'components/cards/faq-item';
 const data = [
   {
     id: 1,
-    ques: 'Which domain should I purchase?',
-    ans: `We make it easy to move to CometNine. Simply contact us and we'll move your hosting account from any other provider, regardless of the control panel. If at anytime your website is down for more than 0.1% result`,
+    ques: 'O que é um bot de Atendimento?',
+    ans: `Um bot de atendimento é um programa de computador que pode interagir com os usuários através do aplicativo de mensagens. Ele pode ser usado para ajudar os clientes a encontrar informações ou realizar outras tarefas.`,
   },
   {
     id: 2,
-    ques: 'What are some tips when choosing a name?',
-    ans: `Get your website tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news.`,
+    ques: 'Como um bot de atendimento pode ajudar a minha empresa?',
+    ans: `Os bots de WhatsApp podem ser programados para fazer uma variedade de tarefas, como automatizar o seus fluxos, facilitar o atendimento dos seus agentes humanos, direcionar o seu cliente para o atendente certo.`,
   },
   {
     id: 3,
-    ques: 'What if I need help choosing the right domain?',
-    ans: `Create a hub for cross-functional work that also works with all your other tools. Centralize and standardize communication with Miro. All premium functional are included here with updates.`,
+    ques: 'Como posso integrar minha equipe de atendimento ao cliente?',
+    ans: `A integração da equipe de atendimento ao cliente com uma plataforma multicanal pode ser feita de várias maneiras, incluindo a utilização de softwares específicos, treinamentos e capacitações para utilizar a plataforma, e a implementação de processos e procedimentos para garantir uma comunicação eficaz entre os canais de atendimento.`,
   },
   {
     id: 4,
-    ques: 'Can I upgrade or downgrade my web hosting plan',
-    ans: `The pricing made me a little hesitant at first but I have been pleasantly surprised by the level of care given by CometNine.`,
-  },
-  {
-    id: 5,
-    ques: 'How do I upgrade the storage capacity of my hosting plan?',
-    ans: `Stop your viewers from getting distracted. Publish videos to your own Channel and rest easy knowing viewers won’t be annoyed by ads or pulled down a rabbit hole of unrelated videos.`,
-  },
-  {
-    id: 6,
-    ques: 'What is in InMotion Hosting’s uptime rate?',
-    ans: `Designed with beginners in mind and packed with advanced features developers will love. Start with a quick and simple install`,
-  },
-  {
-    id: 7,
-    ques: 'Learn from community on Brandwagon',
-    ans: `Brian Halligan knows that you need more than a great product to have a great brand. Hear his thoughts & score a peek at our wagon.`,
+    ques: 'Como posso monitorar e medir o desempenho da minha equipe de atendimento?',
+    ans: `É possível medir o desempenho da equipe de atendimento multicanal através de métricas como tempo de resposta, taxa de resolução de problemas, satisfação do cliente e outras métricas relevantes.`,
   },
 ];
 
@@ -50,8 +35,8 @@ const Faq = () => {
       <Container>
         <SectionHeading
           sx={{ mb: [8, null, null, 15] }}
-          description="Get yours question answer"
-          title="See what is your Frequently question"
+          description="Consiga as suas respostas"
+          title="Veja abaixo o nosso FAQ"
         />
         <Masonry options={masonryOptions} sx={styles.grid}>
           {data.map((item) => {

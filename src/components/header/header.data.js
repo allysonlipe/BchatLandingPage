@@ -12,12 +12,12 @@ const menuItems = [
     label: 'Soluções',
   },
   {
-    path: 'services',
-    label: 'Faq',
+    path: 'features',
+    label: 'Caso de Sucesso',
   },
   {
     path: 'faq',
-    label: 'Dúvidas',
+    label: 'Faq',
   },
 ];
 export default menuItems;

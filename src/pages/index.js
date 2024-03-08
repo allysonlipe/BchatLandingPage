@@ -6,9 +6,9 @@ import Faq from 'sections/faq';
 import Testimonials from 'sections/testimonials';
 import Security from 'sections/security';
 import Addons from 'sections/addons';
-import MobileApp from 'sections/mobile-app';
+// import MobileApp from 'sections/mobile-app';
 import Dashboard from 'sections/dashboard';
-import UltimateFeatures from 'sections/ultimate-features';
+// import UltimateFeatures from 'sections/ultimate-features';
 
 export default function IndexPage() {
   return (

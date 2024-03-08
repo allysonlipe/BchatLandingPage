@@ -1,5 +1,4 @@
 /** @jsx jsx */
-import { rgba } from 'polished';
 import Slider from 'react-slick';
 import { jsx, Container } from 'theme-ui';
 import Testimonial from 'components/cards/testimonial';
