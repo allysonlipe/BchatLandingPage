@@ -6,6 +6,13 @@ import { jsx, Flex, Image, Container, Heading, Text, Button } from 'theme-ui';
 import banner from 'assets/images/banner.png';
 
 const Banner = () => {
+  const handleWhatsAppClick = () => {
+    const phoneNumber = '558431901700'; // Número de telefone do WhatsApp
+    const message = 'Olá, tenho interesse no Bchat'; // Mensagem inicial
+    const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(whatsappLink, '_blank'); // Abre o link do WhatsApp em uma nova aba
+  };
+
   return (
     <section id="home" sx={styles.section}>
       <Container sx={styles.container}>
@@ -21,7 +28,7 @@ const Banner = () => {
           <Image src={banner} alt="banner" />
         </Flex>
         <Flex sx={styles.buttonGroup}>
-          <Button variant="primary" sx={styles.btnPrimary}>
+        <Button variant="primary" sx={styles.btnPrimary} onClick={handleWhatsAppClick}>
             Obtenha um diagnóstico grátis da sua operação
           </Button>
         </Flex>

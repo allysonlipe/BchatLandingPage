@@ -17,7 +17,15 @@ const Security = () => {
       }
     }
   `);
+  const handleWhatsAppClick = () => {
+    const phoneNumber = '558431901700'; // Número de telefone do WhatsApp
+    const message = 'Olá, tenho interesse no Bchat'; // Mensagem inicial
+    const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(whatsappLink, '_blank'); // Abre o link do WhatsApp em uma nova aba
+  };
+  
   return (
+
     <section id="features" sx={styles.section}>
       <Container sx={styles.content}>
         <Box sx={styles.grid}>
@@ -39,7 +47,7 @@ const Security = () => {
             <Text as="p">
               “Com o BChat não deixamos mais nenhum associado esperando atendimento. Com a integração com o nosso sistema de gestão, o associado pode emitir seu boleto mensal, de forma prática, sendo atendido pelo BChat de forma tão prática que imagina estar sendo atendido por um humano’’Luana Cavalcanti - Gerente Pensar Clube
             </Text>
-            <Button sx={styles.btnPrimary}>
+            <Button sx={styles.btnPrimary} onClick={handleWhatsAppClick}>
               Impulsione Seu Atendimento
             </Button>
           </Flex>
@@ -56,7 +64,7 @@ const Security = () => {
               Dê vida ao seu atendimento ao cliente com o BChat criado<br /> sob medida! Estamos ansiosos para mergulhar nas suas<br /> ideias e transformá-las em uma realidade.
             </Text>
           </Flex>
-          <Button sx={styles.btnSecundary}>
+          <Button sx={styles.btnSecundary} onClick={handleWhatsAppClick}>
             Consulta Gratuita
           </Button>
         </Box>
