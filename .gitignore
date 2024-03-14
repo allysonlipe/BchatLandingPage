@@ -68,7 +68,13 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
-.now
+# Editors
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# firebase cache files
+.firebase/
 # Local Netlify folder
 .netlify
-.vercel
